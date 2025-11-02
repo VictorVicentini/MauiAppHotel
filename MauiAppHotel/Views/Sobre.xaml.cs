@@ -1,5 +1,5 @@
 namespace MauiAppHotel.Views;
-
+layout
 public partial class Sobre : ContentPage
 {
     public Sobre()
