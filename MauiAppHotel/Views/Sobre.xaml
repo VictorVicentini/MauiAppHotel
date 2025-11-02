@@ -16,7 +16,7 @@
 
         <Frame Padding="20" CornerRadius="10" BackgroundColor="White" HasShadow="True">
             <VerticalStackLayout Spacing="10">
-                <Label Text="Desenvolvedor: Victor"
+                <Label Text="Desenvolvedor: Victor Vicentini"
                        FontSize="18"
                        TextColor="Black" />
                 <Label Text="Ano de Desenvolvimento: 2025"
