@@ -15,7 +15,7 @@
                FontFamily="Kalam"
                FontSize="50"
                HorizontalOptions="Center"
-               TextColor="{StaticResource Primary}" />
+               TextColor="#D4AF37" />
 
         <Frame Padding="15" CornerRadius="10" HasShadow="True" BackgroundColor="White">
             <VerticalStackLayout>
@@ -26,7 +26,7 @@
                            Text="Adultos:" />
 
                     <Label Grid.Row="0" Grid.Column="1"
-                           TextColor="{StaticResource Primary}"
+                           TextColor="#D4AF37"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
@@ -40,7 +40,7 @@
                            Text="Crianças:" />
 
                     <Label Grid.Row="1" Grid.Column="1"
-                           TextColor="{StaticResource Primary}"
+                           TextColor="#D4AF37"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_criancas}"/>
 
@@ -57,7 +57,7 @@
                         <Label Text="Escolha sua Suíte"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="#D4AF37"/>
 
                         <Picker x:Name="pck_quarto"
                                 Title="Selecione sua Acomodação" />
@@ -71,7 +71,7 @@
                         <Label Text="Período da Estadia"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="#D4AF37"/>
 
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Check-in:" />
@@ -88,16 +88,17 @@
                 </Frame>
 
                 <Button Text="Avançar"  
-                          BackgroundColor="{StaticResource Primary}"
+                          BackgroundColor="#D4AF37"
                     TextColor="White"
                     CornerRadius="10"
                     FontAttributes="Bold"/>
 
                 <Button Text="Sobre"
                     BackgroundColor="{StaticResource Gray300}"
-                    TextColor="{StaticResource Primary}"
+                    TextColor="White"
                     CornerRadius="10"
-                    Clicked="OnSobreClicked" />
+                    Clicked="OnSobreClicked" 
+                         FontAttributes="Bold"/>
 
             </VerticalStackLayout>
         </Frame>
