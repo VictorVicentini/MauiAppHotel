@@ -11,11 +11,15 @@
                          Padding="10"
                          Spacing="10">
 
-        <Label Text="Cálculo da Diária"
-               FontFamily="Kalam"
-               FontSize="50"
+        <Label Text="CÁLCULO DA DIÁRIA"
+                FontFamily="BricolageGrotesque_SemiCondensed - Bold"
+               FontSize="35"
                HorizontalOptions="Center"
+<<<<<<< HEAD
                TextColor="#D4AF37" />
+=======
+               TextColor="#D3AF37" />
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
 
         <Frame Padding="15" CornerRadius="10" HasShadow="True" BackgroundColor="White">
             <VerticalStackLayout>
@@ -26,7 +30,11 @@
                            Text="Adultos:" />
 
                     <Label Grid.Row="0" Grid.Column="1"
+<<<<<<< HEAD
                            TextColor="#D4AF37"
+=======
+                           TextColor="#D3AF37"
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
@@ -40,7 +48,11 @@
                            Text="Crianças:" />
 
                     <Label Grid.Row="1" Grid.Column="1"
+<<<<<<< HEAD
                            TextColor="#D4AF37"
+=======
+                           TextColor="#D3AF37"
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_criancas}"/>
 
@@ -57,7 +69,11 @@
                         <Label Text="Escolha sua Suíte"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
+<<<<<<< HEAD
                                TextColor="#D4AF37"/>
+=======
+                               TextColor="#D3AF37"/>
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
 
                         <Picker x:Name="pck_quarto"
                                 Title="Selecione sua Acomodação" />
@@ -71,7 +87,11 @@
                         <Label Text="Período da Estadia"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
+<<<<<<< HEAD
                                TextColor="#D4AF37"/>
+=======
+                               TextColor="#D3AF37"/>
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
 
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Check-in:" />
@@ -88,17 +108,31 @@
                 </Frame>
 
                 <Button Text="Avançar"  
+<<<<<<< HEAD
                           BackgroundColor="#D4AF37"
+=======
+                          BackgroundColor="#D3AF37"
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
                     TextColor="White"
                     CornerRadius="10"
-                    FontAttributes="Bold"/>
+                    FontAttributes="Bold"
+                        Margin="5"/>
 
                 <Button Text="Sobre"
+<<<<<<< HEAD
                     BackgroundColor="{StaticResource Gray300}"
                     TextColor="White"
                     CornerRadius="10"
                     Clicked="OnSobreClicked" 
                          FontAttributes="Bold"/>
+=======
+                     BackgroundColor="#D3AF37"
+                    TextColor="white"
+                        FontAttributes="Bold"
+                    CornerRadius="10"
+                    Clicked="OnSobreClicked" 
+                        Margin="5"/>
+>>>>>>> 0df5763ac992cd65d405dbaefd6744baa05ea2df
 
             </VerticalStackLayout>
         </Frame>
